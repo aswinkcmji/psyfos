@@ -289,7 +289,7 @@
             </a>
         </li>
         </ul>
-        <p class="copyright">©2021 psyfos.in All rights reserved</p>
+        <p class="copyright" >© Copyrights <span id="year"></span> by psyfos.in All rights reserved.</p>
     </div>
 </footer>
   </main>
@@ -301,8 +301,9 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script >    
     $('.navbar-nav>li>a').on('click', function(){
-     $('.navbar-collapse').collapse('hide');
- });
+        $('.navbar-collapse').collapse('hide');
+    });
+    document.getElementById("year").innerHTML = new Date().getFullYear();
  </script>
 </body>
 </html>

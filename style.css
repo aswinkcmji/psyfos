@@ -241,7 +241,7 @@ body{
     background-color:rgba(2, 169, 164, 1);
 }
 .copyright{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     margin-top: 5rem;
     color: var(--background);
 }
