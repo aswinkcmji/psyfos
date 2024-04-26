@@ -101,12 +101,19 @@ main{
     font-weight: bold;
     color: var(--dark);
 }
+
 .team-img{
-    width: 10rem;
+    width: 11rem;
     height: 13rem;
     border: solid var(--background);
     border-radius: 1rem;
-    
+}
+.team-name{
+    font-size: large;
+    font-weight: bold;
+}
+.team-post{
+    font-size: medium;
 }
 .team-section{
     padding-top: 3rem;
@@ -161,18 +168,41 @@ main{
     font-size: 33px;
     margin-bottom: 30px;
 }
-.service h2{
-    font-size: 15px;
+.service p{
+    font-size: medium;
     text-transform: uppercase;
     font-weight: 500;
     margin: 0;
 }
 
+.modal-header h5{
+    font-weight: bold;
+    color: var(--text);
+}
+
+.service-modal-body{
+    height: 40rem;
+    padding: 1rem;
+    overflow-y: scroll;
+}
+
+.service-modal-body h6{
+    font-size: large;
+    font-weight: bold;
+    color: var(--text);
+}
+
+.service-modal-body ul{
+    font-size: medium;
+    color: var(--text);
+    padding: 0 0 0 1rem;
+}
 
 body{
     margin: 0;
     padding: 0;
 }
+
 /* MAIN SECTION */
 
 /* CONTAT SECTION */
