@@ -192,10 +192,6 @@ main{
     color: var(--text);
 }
 
-.service-modal-body div {
-    padding: 0 0 0 0.5rem;
-}
-
 .service-modal-body div span h6{
     font-size: medium;
     color: var(--text);
