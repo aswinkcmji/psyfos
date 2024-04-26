@@ -188,18 +188,17 @@ main{
 
 .service-modal-body h5{
     font-size: larger;
-    font-weight: bold;
+    font-weight: bolder;
     color: var(--text);
 }
 
-.service-modal-body ul{
-    font-size: medium;
-    color: var(--text);
-    list-style-type: none;
+.service-modal-body div {
+    padding: 0 0 0 0.5rem;
 }
 
-.service-modal-body ul li h6{
+.service-modal-body div span h6{
     font-size: medium;
+    color: var(--text);
     font-weight: 600;
     margin-top: 0.8rem;
 }
