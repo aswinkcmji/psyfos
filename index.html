@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="assets/dist/output.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    </head>
+    <body>
+
+        <!-- HEADER SECTION START -->
+        
+        <header class="py-8 lg:pt-6 lg:pb-14">
+            <div class="container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between gap-y-4 lg:gap-y-0">
+                <div class="flex justify-center lg:justify-normal">
+                    <a href="">
+                        <img src="./assets/img/header/logo.png" class="w-28 h-auto" alt="">
+                    </a>
+                </div>
+                <div class="flex flex-col gap-y-4 lg:flex-row lg:gap-x-10 lg:gap-y-0">
+                    <div class="flex justify-center items-center gap-x-2 lg:justify-normal">
+                        <i class="ri-map-pin-2-fill text-2xl text-primary"></i>
+                        <div class="text-gray-500 font-light">Pulikal Tower, Court Road Manjeri</div>
+                    </div>
+                    <div class="flex justify-center items-center gap-x-2 lg:justify-normal">
+                        <i class="ri-phone-fill text-2xl text-primary"></i>
+                        <a href="tel:+919567803065" class="text-gray-500 font-light">+91 9567803065</a>
+                    </div>
+                    <button class="lg:hidden btn btn-outline w-[240px] mx-auto lg:mx-0 py-1 rounded-full">BOOK NOW</button>
+                    
+                    <!-- MOBILE NAV -->
+                    
+                    <nav class="mnav bg-gray-50 fixed w-[300px] top-0 h-screen -left-[300px] shadow-md lg:hidden transition-all duration-300 z-20">
+                        <div class="mnav__close-btn bg-primary w-8 h-8 relative -right-full top-8 flex justify-center items-center rounded-tr-lg cursor-pointer transition-all">
+                            <i class="mnav__close-btn-icon ri-arrow-right-s-line text-2xl text-white"></i>
+                        </div>
+                        <div class="px-12 flex flex-col gap-y-12 h-full">
+                            <a href="#">
+                                <img src="assets/img/header/logo.png" class="w-28 h-auto" alt="">
+                            </a>
+                            <ul class="flex flex-col gap-y-5">
+                                <li>
+                                    <a href="#home" class="text-gray-500 hover:text-primary transition-all duration-300">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#about" class="text-gray-500 hover:text-primary transition-all duration-300">About us</a>
+                                </li>
+                                <li>
+                                    <a href="#services" class="text-gray-500 hover:text-primary transition-all duration-300">Services</a>
+                                </li>
+                                <li>
+                                    <a href="#team" class="text-gray-500 hover:text-primary transition-all duration-300">Our Team</a>
+                                </li>
+                                <li>
+                                    <a href="#career" class="border-r pr-4 text-gray-500 hover:text-primary font-light transition-all duration-300">Career</a>
+                                </li>
+                                <li>
+                                    <a href="#gallery" class="text-gray-500 hover:text-primary transition-all duration-300">Activities</a>
+                                </li>
+                                <li>
+                                    <a href="#footer" class="text-gray-500 hover:text-primary transition-all duration-300">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <!-- DESKTOP NAV -->
+                    
+                    <nav class="bg-white absolute w-full left-0 -bottom-[86px] shadow-custom1 h-16 rounded-[10px] hidden lg:flex lg:items-center lg:justify-between lg:px-[50px]">
+                        <ul class="flex gap-x-4">
+                            <li>
+                                <a href="#home" class="border-r pr-4 text-gray-500 hover:text-primary font-light transition-all duration-300">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about" class="border-r pr-4 text-gray-500 hover:text-primary font-light transition-all duration-300">About us</a>
+                            </li>
+                            <li>
+                                <a href="#services" class="border-r pr-4 text-gray-500 hover:text-primary font-light transition-all duration-300">Services</a>
+                            </li>
+                            <li>
+                                <a href="#team" class="border-r pr-4 text-gray-500 hover:text-primary font-light transition-all duration-300">Our Team</a>
+                            </li>
+                            <li>
+                                <a href="#career" class="border-r pr-4 text-gray-500 hover:text-primary font-light transition-all duration-300">Career</a>
+                            </li>
+                            <li>
+                                <a href="#gallery" class="border-r pr-4 text-gray-500 hover:text-primary font-light transition-all duration-300">Activities</a>
+                            </li>
+                            <li>
+                                <a href="#footer" class="text-gray-500 hover:text-primary font-light transition-all duration-300">Contact</a>
+                            </li>
+                        </ul>
+                        <button class="btn btn-sm btn-outline w-[240px] lg:w- mx-auto lg:mx-0 py-2 rounded-full">BOOK NOW</button>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- HEADER SECTION END -->
+
+        <!-- HERO SECTION START -->
+
+        <section id="home" class="hero bg-grey py-12 lg:pt-12 pb-12 overflow-hidden mb-6">
+            <div class="container mx-auto h-full">
+                <div class="flex flex-col lg:flex-row items-center justify-between h-full">
+                    <div class="hero__text lg:w-[48%] text-center lg:text-left reveal">
+                        <!--badge-->
+                        <div class="flex items-center bg-white py-[10px] px-[20px] w-fit sm:w-max gap-x-2 mb-[26px] rounded-full mx-auto lg:mx-0 break-words">
+                            <!-- badge icon -->
+                             <i class="ri-heart-pulse-line text-2xl text-accent"></i>
+                             <div class="uppercase text-sm sm:text-base font-medium text-[#9ab4b7] tracking-[2.24px]">Clarity, Growth , Wellbeing</div>
+                        </div>
+                        <!-- title -->
+                        <h1 class="h1 mb-6">Counselling and Psychotherapy</h1>
+                        <!-- desc -->
+                        <p class="mb-[42px] md:max-w-xl:">Psyfos centre for mental health and wellbeing is a premium psychological centre in manjeri. We are a group of professionaly qualified clinical psychologists, counsultant psychologists and remedial educators. We provide evidence based and scientiﬁc therapies to assist the needed.</p>
+                        <a href="https://wa.me/9567803065" class="btn btn-lg btn-accent mx-auto lg:mx-0 w-fit">Contact Us</a>
+                    </div>
+                    <div class="hero__img hidden lg:flex max-w-[600px] self-end reveal">
+                        <img src="./assets/img/Psychologist-rafiki.svg" alt="pysfos home page" class="w-[1000px] h-auto" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- HERO SECTION END -->
+
+
+        <!-- WHY SECTION START -->
+
+        <section id="about" class="mb-[50px]">
+            <div style="background-image: url('./assets/img/backgound/background-2.jpg');" class="why__choose bg-cover bg-no-repeat rounded-[20px] max-w-[1466px] mx-4 xl:mx-auto xl:pt-[70px] px-6 xl:px-0 relative min-h-[200px] flex items-center xl:items-start -z-10 py-10 ">
+                <div class="container mx-auto">
+                    <div class="why__choose-head flex items-center flex-col xl:flex-row xl:mb-[60px]">
+                        <h2 class="h2 text-white pr-4">Why choose us?</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container mx-auto mt-2 sm:-mt-8 md:-mt-7 lg:-mt-12 xl:-mt-20">
+                <div class="grid md:grid-cols-3 grid-cols-1 gap-2">
+                    <div class="px-5 py-10 bg-white shadow-custom1 rounded-lg">
+                        <div class="p-4">
+                            <h1 class="why__choose-text text-center my-auto text-primary text-3xl font-semibold">
+                                6000+ <span class="text-secondary text-xl">happy clients</span>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="px-5 py-10 bg-white shadow-custom1 rounded-lg">
+                        <div class="p-4">
+                            <h1 class="why__choose-text text-center my-auto text-primary text-3xl font-semibold">
+                                Non judgemental <span class="text-secondary text-xl">approach</span>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="px-5 py-10 bg-white shadow-custom1 rounded-lg">
+                        <div class="p-4">
+                            <h1 class="why__choose-text text-center my-auto text-primary text-3xl font-semibold">
+                                Experienced and trained <span class="text-secondary text-xl">psychologist</span>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY SECTION START -->
+
+
+        <!-- SERVICE SECTION START -->
+
+
+        <section id="services" class="services mb-[50px]">
+            <div class="container mx-auto">
+                <h2 class="team__title h2 mb-[50px] text-center xl:text-left">
+                    Our Services
+                </h2>
+                <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-5 xl:p-0">
+                    <div class="service__item" onclick="openModal('service-1')">
+                        <div class="mb-[15px]">
+                            <i class="ri-psychotherapy-fill text-[2.5rem] text-primary text-opacity-75 "></i>
+                        </div>
+                        <h3 class="h3 mb-[10px]">
+                            Counseling and Psychotherapy
+                        </h3>
+                        <p class="font-light leading-normal max-w-[300px]">
+                            Counseling and Psychotherapy are therapeutic practices
+                            aimed at improving mental health and well-being.
+                        </p>
+                    </div>
+
+                    <div class="service__item" onclick="openModal('service-2')">
+                        <div class="mb-[15px]">
+                            <i class="ri-brain-2-fill text-[2.5rem] text-primary text-opacity-75 "></i>
+                        </div>
+                        <h3 class="h3 mb-[10px]">
+                            Psychological Assessment and Diagnostics
+                        </h3>
+                        <p class="font-light leading-normal max-w-[300px]">
+                            Psychological assessment involves evaluating mental
+                            health, behavior, and cognitive functioning
+                            systematically.
+                        </p>
+                    </div>
+
+                    <div class="service__item" onclick="openModal('service-3')">
+                        <div class="mb-[15px]">
+                            <i class="ri-open-arm-line text-[2.5rem] text-primary text-opacity-75 "></i>
+                        </div>
+                        <h3 class="h3 mb-[10px]">
+                            Child and Adolescent Counseling
+                        </h3>
+                        <p class="font-light leading-normal max-w-[300px]">
+                            Child and adolescent counseling focuses on addressing
+                            unique emotional, behavioral, and developmental needs.
+                        </p>
+                    </div>
+
+                    <div class="service__item" onclick="openModal('service-4')">
+                        <div class="mb-[15px]">
+                            <i class="ri-lightbulb-fill text-[2.5rem] text-primary text-opacity-75 "></i>
+                        </div>
+                        <h3 class="h3 mb-[10px]">
+                            IQ and Learning Disability Assessment
+                        </h3>
+                        <p class="font-light leading-normal max-w-[300px]">
+                            IQ and Learning Disability Assessment evaluates
+                            intellectual capabilities and identifies specific learning
+                            disabilities.
+                        </p>
+                    </div>
+
+                    <div class="service__item" onclick="openModal('service-5')">
+                        <div class="mb-[15px]">
+                            <i class="ri-home-4-fill text-[2.5rem] text-primary text-opacity-75 "></i>
+                        </div>
+                        <h3 class="h3 mb-[10px]">
+                            Family and Couple Therapy
+                        </h3>
+                        <p class="font-light leading-normal max-w-[300px]">
+                            Family and Couple Therapy is a type of psychotherapy that
+                            addresses issues within familial and romantic
+                            relationships.
+                        </p>
+                    </div>
+
+                    <div class="service__item" onclick="openModal('service-6')">
+                        <div class="mb-[15px]">
+                            <i class="ri-book-open-fill text-[2.5rem] text-primary text-opacity-75 "></i>
+                        </div>
+                        <h3 class="h3 mb-[10px]">
+                            Learning Disability Management
+                        </h3>
+                        <p class="font-light leading-normal max-w-[300px]">
+                            Learning Disability Management supports individuals with
+                            tailored strategies to overcome educational challenges.
+                        </p>
+                    </div>
+
+                    <div class="service__item" onclick="openModal('service-7')">
+                        <div class="mb-[15px]">
+                            <i class="ri-user-2-fill text-[2.5rem] text-primary text-opacity-75 "></i>
+                        </div>
+                        <h3 class="h3 mb-[10px]">
+                            Career Counseling and Assessments
+                        </h3>
+                        <p class="font-light leading-normal max-w-[300px]">
+                            Career counseling uses tests for aptitude, personality,
+                            and interests to help people make informed career
+                            decisions.
+                        </p>
+                    </div>
+
+                    <div class="service__item" onclick="openModal('service-8')">
+                        <div class="mb-[15px]">
+                            <i class="ri-building-fill text-[2.5rem] text-primary text-opacity-75"></i>
+                        </div>
+                        <h3 class="h3 mb-[10px]">
+                            Corporate training
+                        </h3>
+                        <p class="font-light leading-normal max-w-[300px]">
+                            we specialize in leveraging psychological principles 
+                            to create more effective and harmonious workplaces.
+                        </p>
+                    </div>
+
+                    <div class="service__item" onclick="openModal('service-9')">
+                        <div class="mb-[15px]">
+                            <!-- <i class="ri-suitcase-fill text-[2.5rem] text-primary text-opacity-75"></i> -->
+                            <i class="ri-stairs-fill text-[2.5rem] text-primary text-opacity-75"></i>
+                        </div>
+                        <h3 class="h3 mb-[10px]">
+                            Internship in Clinical Psychology
+                        </h3>
+                        <p class="font-light leading-normal max-w-[300px]">
+                            The Clinical Psychology Internship provides hands-on 
+                            experience in assessment and treatment for students and 
+                            early professionals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            
+        </section>
+
+        <!-- SERVICE SECTION END -->
+
+        <!-- TEAM SECTION START -->
+
+        <section id="team" class="team section mb-[50px]">
+            <div class="container mx-auto hidden sm:block">
+                <h2 class="team__title h2 mb-[50px] text-center xl:text-left">
+                    Our Team
+                </h2>
+                <div class="team__slider swiper min-h-[400px]">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="flex-1 flex flex-col sm:flex-row shadow-custom1 rounded-b-md gap-8">
+                                <div class="flex flex-1 flex-col xl:flex-row items-start xl:items-center text-left gap-[30px]">
+                                    <div class="flex-1">
+                                        <img class="min-w-48 h-auto object-cover rounded-t-md" src="assets/img/team/aslam.jpg" alt="">
+                                    </div>
+                                    <div class="flex-1 flex flex-col p-2">
+                                        <h4 class="h4 mb-[10px]">Aslam Siddiq P</h4>
+                                        <div class="font-medium uppercase text-sm tracking-[2.24px] text-gray-500 mb-[20px]">
+                                            Clinical Psychologist
+                                        </div>
+                                        <p class="font-extralight mb-[26px] max-w-[320px] text-sm">
+                                            MSc,MPhil(cli.psy)
+                                            CRR.No.A57288
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-1 flex-col xl:flex-row items-start xl:items-center text-left gap-[30px]">
+                                    <div class="flex-1 rou">
+                                        <img class="min-w-48 h-auto object-cover rounded-t-md" src="assets/img/team/raoof.jpg" alt="">
+                                    </div>
+                                    <div class="flex-1 flex flex-col p-2">
+                                        <h4 class="h4 mb-[10px]">Abdul Raoof</h4>
+                                        <div class="font-medium uppercase text-sm tracking-[2.24px] text-gray-500 mb-[20px]">
+                                            Consultant psychologist
+                                        </div>
+                                        <p class="font-extralight mb-[26px] max-w-[320px] text-sm">
+                                            MSc psychology
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="flex-1 flex flex-col sm:flex-row shadow-custom1 rounded-b-md gap-8">
+                                <div class="flex flex-1 flex-col xl:flex-row items-start xl:items-center text-left gap-[30px]">
+                                    <div class="flex-1 rou">
+                                        <img class="min-w-48 h-auto object-cover rounded-t-md" src="assets/img/team/riyas.jpeg" alt="">
+                                    </div>
+                                    <div class="flex-1 flex flex-col p-2">
+                                        <h4 class="h4 mb-[10px]">Riyas</h4>
+                                        <div class="font-medium uppercase text-sm tracking-[2.24px] text-gray-500 mb-[20px]">
+                                            Consultant psychologist
+                                        </div>
+                                        <p class="font-extralight mb-[26px] max-w-[320px] text-sm">
+                                            MSc clinical psychology
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-1 flex-col xl:flex-row items-start xl:items-center text-left gap-[30px]">
+                                    <div class="flex-1 rou">
+                                        <img class="min-w-48 h-auto object-cover rounded-t-md" src="assets/img/team/munavar.jpg" alt="">
+                                    </div>
+                                    <div class="flex-1 flex flex-col p-2">
+                                        <h4 class="h4 mb-[10px]">Munavar Ali K K</h4>
+                                        <div class="font-medium uppercase text-sm tracking-[2.24px] text-gray-500 mb-[20px]">
+                                            Psychologist & Career Counselor
+                                        </div>
+                                        <p class="font-extralight mb-[26px] max-w-[320px] text-sm">
+                                            Msc psychology
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="flex-1 flex flex-col sm:flex-row shadow-custom1 rounded-b-md gap-8">
+                                <div class="flex sm:flex-[0.5] flex-col xl:flex-row items-start xl:items-center text-left gap-[30px]">
+                                    <div class="flex-1">
+                                        <img class="min-w-48 h-auto object-cover rounded-t-md" src="assets/img/team/nihala.jpg" alt="">
+                                    </div>
+                                    <div class="flex-1 flex flex-col p-2">
+                                        <h4 class="h4 mb-[10px]">Aaisha Nihala T</h4>
+                                        <div class="font-medium uppercase text-sm tracking-[2.24px] text-gray-500 mb-[20px]">
+                                            Consultant Psychologist
+                                        </div>
+                                        <p class="font-extralight mb-[26px] max-w-[320px] text-sm">
+                                            M.Sc. Clinical Psychology
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination">
+                    </div>
+                </div>
+            </div>
+            <div class="container mx-auto sm:hidden">
+                <h2 class="team__title h2 mb-[50px] text-center xl:text-left">
+                    Our Team
+                </h2>
+                <div class="team__slider swiper min-h-[400px]">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="flex-1 flex flex-col sm:flex-row shadow-custom1 rounded-b-md gap-8">
+                                <div class="flex flex-1 flex-col xl:flex-row items-start xl:items-center text-left gap-[30px]">
+                                    <div class="flex-1">
+                                        <img class="min-w-48 h-auto object-cover rounded-t-md" src="assets/img/team/aslam.jpg" alt="">
+                                    </div>
+                                    <div class="flex-1 flex flex-col p-2">
+                                        <h4 class="h4 mb-[10px]">Aslam Siddiq P</h4>
+                                        <div class="font-medium uppercase text-sm tracking-[2.24px] text-gray-500 mb-[20px]">
+                                            Clinical Psychologist
+                                        </div>
+                                        <p class="font-extralight mb-[26px] max-w-[320px] text-sm">
+                                            MSc,MPhil(cli.psy)
+                                            CRR.No.A57288
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="flex-1 flex flex-col sm:flex-row shadow-custom1 rounded-b-md">
+                                <div class="flex flex-col xl:flex-row items-start xl:items-center text-left gap-[30px]">
+                                    <div class="flex-1 rou">
+                                        <img class="min-w-48 h-auto object-cover rounded-t-md" src="assets/img/team/raoof.jpg" alt="">
+                                    </div>
+                                    <div class="flex-1 flex flex-col p-2">
+                                        <h4 class="h4 mb-[10px]">Abdul Raoof</h4>
+                                        <div class="font-medium uppercase text-sm tracking-[2.24px] text-gray-500 mb-[20px]">
+                                            Consultant psychologist
+                                        </div>
+                                        <p class="font-extralight mb-[26px] max-w-[320px] text-sm">
+                                            MSc psychology
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="flex-1 flex flex-col sm:flex-row shadow-custom1 rounded-b-md gap-8">
+                                <div class="flex flex-1 flex-col xl:flex-row items-start xl:items-center text-left gap-[30px]">
+                                    <div class="flex-1 rou">
+                                        <img class="min-w-48 h-auto object-cover rounded-t-md" src="assets/img/team/riyas.jpeg" alt="">
+                                    </div>
+                                    <div class="flex-1 flex flex-col p-2">
+                                        <h4 class="h4 mb-[10px]">Riyas</h4>
+                                        <div class="font-medium uppercase text-sm tracking-[2.24px] text-gray-500 mb-[20px]">
+                                            Consultant psychologist
+                                        </div>
+                                        <p class="font-extralight mb-[26px] max-w-[320px] text-sm">
+                                            MSc clinical psychology
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="flex-1 flex flex-col sm:flex-row shadow-custom1 rounded-b-md">
+                                <div class="flex flex-col xl:flex-row items-start xl:items-center text-left gap-[30px]">
+                                    <div class="flex-1 rou">
+                                        <img class="min-w-48 h-auto object-cover rounded-t-md" src="assets/img/team/munavar.jpg" alt="">
+                                    </div>
+                                    <div class="flex-1 flex flex-col p-2">
+                                        <h4 class="h4 mb-[10px]">Munavar Ali K K</h4>
+                                        <div class="font-medium uppercase text-sm tracking-[2.24px] text-gray-500 mb-[20px]">
+                                            Psychologist & Career Counselor
+                                        </div>
+                                        <p class="font-extralight mb-[26px] max-w-[320px] text-sm">
+                                            Msc psychology
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="flex-1 flex flex-col sm:flex-row shadow-custom1 rounded-b-md gap-8">
+                                <div class="flex sm:flex-[0.5] flex-col xl:flex-row items-start xl:items-center text-left gap-[30px]">
+                                    <div class="flex-1">
+                                        <img class="min-w-48 h-auto object-cover rounded-t-md" src="assets/img/team/nihala.jpg" alt="">
+                                    </div>
+                                    <div class="flex-1 flex flex-col p-2">
+                                        <h4 class="h4 mb-[10px]">Aaisha Nihala T</h4>
+                                        <div class="font-medium uppercase text-sm tracking-[2.24px] text-gray-500 mb-[20px]">
+                                            Consultant Psychologist
+                                        </div>
+                                        <p class="font-extralight mb-[26px] max-w-[320px] text-sm">
+                                            M.Sc. Clinical Psychology
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TEAM SECTION END -->
+        
+        
+        <!-- CAREER SECTION START -->
+
+        <section id="career" class="career">
+            <div class="container mx-auto">
+                <h2 class="career__title h2 mb-[50px] text-center xl:text-left">
+                    Career Opportunities
+                </h2>
+                <div>
+                    <div class="grid md:grid-cols-2 grid-cols-1 gap-x-5">
+                        <div class="career__img w-full h-full">
+                            <img src="./assets/img/Questions-pana.svg" alt="helo" class="w-[1000px] h-auto">
+                        </div>
+                        <div class="career__text flex flex-col justify-evenly gap-y-10 md:gap-0">
+                            <p>
+                                At PsyFos, we are committed to fostering mental health and well-being for individuals and communities alike. 
+                                We are always on the lookout for dedicated, empathetic professionals who share our vision of creating a positive 
+                                impact in the mental health space. Whether you're an experienced practitioner or beginning your career, 
+                                PsyFos offers a dynamic environment for growth, collaboration, and meaningful work.
+                                Join us and contribute to a supportive community where mental health and wellness are prioritized. 
+                                Explore our career opportunities and help build a healthier, more resilient future for everyone.
+                            </p>
+                            <p>Send your resume to <a href="mailto: psyfosofficial@gmail.com." class="text-primary underline hover:text-opacity-75">psyfosofficial@gmail.com.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CAREER SECTION END -->
+
+        <!-- BLOG SECTION START -->
+        
+        <section id="gallery" class="blog mt-10" >
+            <div class="container mx-auto">
+                <h2 class="blog__title h2 mb-[50px] text-center xl:text-left">
+                    Our recent activities
+                </h2>
+                <div class="flex flex-row gap-6 justify-center xl:gap-3 mb-[50px] flex-wrap">
+                    <div class="blog__post max-w-[420px] shadow-custom2 rounded-lg overflow-hidden">
+                        <div class="relative overflow-hidden w-full max-h-[300px] shadow-custom1 cursor-pointer group">
+                            <img class="group-hover:scale-110 transition-all object-cover object-center duration-500" src="./assets/img/blog/blog-5.jpg" alt="">
+                            <div class="bg-accent-teritiary absolute bottom-0 left-0 text-white text-base font-light tracking-[2.24px] uppercase py-[6px] px-[18px]">
+                                <a href="https://www.instagram.com/p/C_vZQwOtPG0/">                                    
+                                    <i class="ri-instagram-fill"></i>
+                                    Instagram
+                                </a>
+                            </div>
+                        </div>
+                        <div class="px-5 py-6">
+                            <h4 class="h4 mb-[10px]">
+                                World Suicide Prevention Day
+                            </h4>
+                            <!-- <p class="font-light text-sm">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Rem officiis fugiat cumque aut odio accusantium officia dolorum...
+                                <a href="#" class="underline text-primary">Read more</a>
+                            </p> -->
+                        </div>
+                    </div>
+                    <div class="blog__post max-w-[420px] shadow-custom2 rounded-lg overflow-hidden">
+                        <div class="relative overflow-hidden w-full max-h-[300px] shadow-custom1 cursor-pointer group">
+                            <img class="group-hover:scale-110 transition-all object-cover object-center duration-500" src="./assets/img/blog/blog-1.jpeg" alt="">
+                            <div class="bg-accent-teritiary absolute bottom-0 left-0 text-white text-base font-light tracking-[2.24px] uppercase py-[6px] px-[18px]">
+                                <a href="https://www.instagram.com/p/ClfeHGoLPmw/">                                    
+                                    <i class="ri-instagram-fill"></i>
+                                    Instagram
+                                </a>
+                            </div>
+                        </div>
+                        <div class="px-5 py-6">
+                            <h4 class="h4 mb-[10px]">
+                                Remedial training
+                            </h4>
+                            <!-- <p class="font-light text-sm">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Rem officiis fugiat cumque aut odio accusantium officia dolorum...
+                                <a href="#" class="underline text-primary">Read more</a>
+                            </p> -->
+                        </div>
+                    </div>
+                    <div class="blog__post max-w-[420px] shadow-custom2 rounded-lg overflow-hidden">
+                        <div class="relative overflow-hidden w-full max-h-[300px] shadow-custom1 cursor-pointer group">
+                            <img class="group-hover:scale-110 transition-all object-cover object-bottom duration-500" src="./assets/img/blog/blog-4.jpg" alt="">
+                            <div class="bg-accent-teritiary absolute bottom-0 left-0 text-white text-base font-light tracking-[2.24px] uppercase py-[6px] px-[18px]">
+                                <a href="https://www.instagram.com/p/C7rYF0pyxZ1/">                                    
+                                    <i class="ri-instagram-fill"></i>
+                                    Instagram
+                                </a>
+                            </div>
+                        </div>
+                        <div class="px-5 py-6">
+                            <h4 class="h4 mb-[10px]">
+                                Relaxation training
+                            </h4>
+                            <!-- <p class="font-light text-sm">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Rem officiis fugiat cumque aut odio accusantium officia dolorum...
+                                <a href="#" class="underline text-primary">Read more</a>
+                            </p> -->
+                        </div>
+                    </div>
+                    <div class="blog__post max-w-[420px] shadow-custom2 rounded-lg overflow-hidden">
+                        <div class="relative overflow-hidden w-full max-h-[300px] shadow-custom1 cursor-pointer group">
+                            <img class="group-hover:scale-110 transition-all object-cover object-center duration-500" src="./assets/img/blog/blog-2.jpg" alt="">
+                            <div class="bg-accent-teritiary absolute bottom-0 left-0 text-white text-base font-light tracking-[2.24px] uppercase py-[6px] px-[18px]">
+                                <a href="https://www.instagram.com/psyfos_/">                                    
+                                    <i class="ri-instagram-fill"></i>
+                                    Instagram
+                                </a>
+                            </div>
+                        </div>
+                        <div class="px-5 py-6">
+                            <h4 class="h4 mb-[10px]">
+                                Corporate training
+                            </h4>
+                            <!-- <p class="font-light text-sm">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Rem officiis fugiat cumque aut odio accusantium officia dolorum...
+                                <a href="#" class="underline text-primary">Read more</a>
+                            </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- BLOG SECTION END -->
+
+        <!-- FOOTER SECTION START -->
+        <footer id="footer" class="footer pt-12 xl:pt-[150px] bg-primary bg-opacity-5">
+            <div class="container mx-auto pb-12 xl:pb-[100px]">
+                <div class="flex flex-col xl:flex-row gap-x-5 gap-y-10">
+                    <div class="footer__item flex-1">
+                        <a href="">
+                            <img src="./assets/img/header/logo.png" class="w-28 h-auto" alt="">
+                        </a>
+                        <p class="mb-[20px] font-light text-gray-500">
+                            Counselling & Psychotherapy
+                        </p>
+                        <div class="flex flex-col gap-y-3 mb-10">
+                            <div class="flex gap-x-3 items-center">
+                                <i class="ri-map-pin-2-fill text-xl text-primary"></i> 
+                                <div class="font-light text-gray-500">Pulikal Tower, Court Road Manjeri</div>
+                            </div>
+                            <div class="flex gap-x-3 items-center">
+                                <i class="ri-mail-fill text-xl text-primary"></i>
+                                <div class="font-light text-gray-500">
+                                    info@psyfos.in, 
+                                    psyfosofficial@gmail.com
+                                </div>
+                            </div>
+                            <div class="flex gap-x-3 items-center">
+                                <i class="ri-phone-fill text-xl text-primary"></i>
+                                <div class="font-light text-gray-500">
+                                    +91 956 780 3065, 
+                                    +91 828 167 5706
+                                </div>
+                            </div>
+                            <div class="flex flex-row gap-x-4">
+                                <div class="text-3xl text-accent-teritiary hover:text-primary cursor-pointer transition-all">
+                                    <a href="https://wa.me/9567803065">
+                                        <i class="ri-whatsapp-fill"></i>
+                                    </a>
+                                </div>
+                                <div class="text-3xl text-accent-teritiary hover:text-primary cursor-pointer transition-all">
+                                    <a href="https://www.facebook.com/PsyFos-107561168364719">
+                                        <i class="ri-facebook-circle-fill"></i>
+                                    </a>
+                                </div>
+                                <div class="text-3xl text-accent-teritiary hover:text-primary cursor-pointer transition-all">
+                                    <a href="https://www.instagram.com/psyfos_/">
+                                        <i class="ri-instagram-fill"></i>   
+                                    </a>
+                                </div>
+                                <div class="text-3xl text-accent-teritiary hover:text-primary cursor-pointer transition-all">
+                                    <i class="ri-twitter-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__item flex-1 xl:text-center">
+                        <h4 class="mb-4">
+                            Quick Links
+                        </h4>
+                        <div>
+                            <ul class="space-y-4 font-light text-gray-500 ">
+                                <li><a href="#about" class="hover:text-primary transition-all">About</a></li>
+                                <li><a href="#services" class="hover:text-primary transition-all">Services</a></li>
+                                <li><a href="#team" class="hover:text-primary transition-all">Team</a></li>
+                                <li><a href="#career" class="hover:text-primary transition-all">Career</a></li>
+                                <li><a href="#gallery" class="hover:text-primary transition-all">Activities</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__item flex-1">
+                        <h4 class="mb-4">
+                            Opening Hours
+                        </h4>
+                        <div class="flex flex-col gap-y-6">
+                            <div class="flex border-b border-gray-200 font-light text-gray-500 justify-between">
+                                <div>Monday - Saturday</div>
+                                <div class="text-primary">9:00 AM - 5:00PM</div>
+                            </div>
+                            <div class="flex border-b border-gray-200 font-light text-gray-500 justify-between">
+                                <div>Sunday</div>
+                                <div class="text-primary">Week Off</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="py-8">
+                <p class="text-sm text-center text-opacity-25 text-secondary" >© Copyrights <span id="year"></span> by psyfos.in All rights reserved.</p>
+            </div>
+        </footer>
+        <!-- FOOTER SECTION END -->
+
+        <!-- SERVICE MODAL START -->
+
+        <!-- SERVICE 1 MODAL -->
+
+        <div id="service-1" class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 overflow-y-auto h-full w-full px-4 ">
+            <div class="relative top-[50%] translate-y-[-50%] mx-auto shadow-xl rounded-md bg-white max-w-xl p-1">
+                <div class="flex justify-between p-2 border-b items-center">
+                    <h2 class="text-lg font-medium">
+                        Counseling and Psychotherapy
+                    </h2>
+                    <hr class="border-b"/>
+                    <button onclick="closeModal('service-1')" type="button"
+                        class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center">
+                        <i class="ri-close-line text-2xl"></i>
+                    </button>
+                </div>
+                <div class="p-2 text-sm font-light flex flex-col gap-y-4">
+                    <div>
+                        <h1 class="text-base font-medium">
+                            Counseling
+                        </h1>
+                        <p>
+                            Focuses on providing support and practical strategies for managing stress, relationships, and life changes.
+                        </p>
+                    </div>
+                    <div>
+                        <h1 class="text-base font-medium">
+                            Psychotherapy
+                        </h1>
+                        <p>
+                            Offers deeper, long-term treatment for issues like anxiety, depression, and trauma through evidence-based techniques.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SERVICE 2 MODAL -->
+
+        <div id="service-2" class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 overflow-y-auto h-full w-full px-4 ">
+            <div class="relative top-[50%] translate-y-[-50%] mx-auto shadow-xl rounded-md bg-white max-w-xl p-1">
+                <div class="flex justify-between p-2 border-b items-center">
+                    <h2 class="text-lg font-medium">
+                        Psychological Assessment and Diagnostics
+                    </h2>
+                    <hr class="border-b"/>
+                    <button onclick="closeModal('service-2')" type="button"
+                        class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center">
+                        <i class="ri-close-line text-2xl"></i>
+                    </button>
+                </div>
+                <div class="p-2 text-sm font-light flex flex-col gap-y-4">
+                    <div>
+                        <h1 class="text-base font-medium">
+                            Psychological Assessments
+                        </h1>
+                        <p>
+                            We use a variety of standardized tests and clinical interviews to evaluate cognitive, emotional, and behavioral functioning. 
+                            Our thorough diagnostic evaluations help pinpoint specific mental health conditions, providing a clear understanding of your symptoms and their impact on your daily life.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SERVICE 3 MODAL -->
+
+        <div id="service-3" class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 overflow-y-auto h-full w-full px-4 ">
+            <div class="relative top-[50%] translate-y-[-50%] mx-auto shadow-xl rounded-md bg-white max-w-xl p-1">
+                <div class="flex justify-between p-2 border-b items-center">
+                    <h2 class="text-lg font-medium">
+                        Child and Adolescent Counseling
+                    </h2>
+                    <hr class="border-b"/>
+                    <button onclick="closeModal('service-3')" type="button"
+                        class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center">
+                        <i class="ri-close-line text-2xl"></i>
+                    </button>
+                </div>
+                <div class="p-2 text-sm font-light flex flex-col gap-y-4">
+                    <div>
+                        <h1 class="text-base font-medium">
+                            Child Counseling
+                        </h1>
+                        <p>
+                            Our child counseling services address issues like anxiety, depression, and behavioral problems, 
+                            offering a safe space for children to express their feelings and learn coping skills.
+                        </p>
+                    </div>
+                    <div>
+                        <h1 class="text-base font-medium">
+                            Adolescent Counseling
+                        </h1>
+                        <p>
+                            We support teens dealing with stress, self-esteem issues, and mental health concerns. 
+                            Our adolescent counseling provides a confidential environment to explore their emotions and develop healthy strategies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SERVICE 4 MODAL -->
+
+        <div id="service-4" class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 overflow-y-auto h-full w-full px-4 ">
+            <div class="relative top-[50%] translate-y-[-50%] mx-auto shadow-xl rounded-md bg-white max-w-xl p-1">
+                <div class="flex justify-between p-2 border-b items-center">
+                    <h2 class="text-lg font-medium">
+                        IQ and Learning Disability Assessment
+                    </h2>
+                    <hr class="border-b"/>
+                    <button onclick="closeModal('service-4')" type="button"
+                        class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center">
+                        <i class="ri-close-line text-2xl"></i>
+                    </button>
+                </div>
+                <div class="p-2 text-sm font-light flex flex-col gap-y-4">
+                    <div>
+                        <h1 class="text-base font-medium">
+                            IQ Assessments
+                        </h1>
+                        <p>
+                            We use standardized intelligence tests. Understanding IQ can help identify strengths and areas for improvement, aiding in academic and career planning.
+                        </p>
+                    </div>
+                    <div>
+                        <h1 class="text-base font-medium">
+                            Learning Assessments
+                        </h1>
+                        <p>
+                            Our learning assessments identify specific learning disabilities, such as dyslexia, dyscalculia, and other challenges. 
+                            These assessments help in creating effective educational plans tailored to child's needs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SERVICE 5 MODAL -->
+
+        <div id="service-5" class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 overflow-y-auto h-full w-full px-4 ">
+            <div class="relative top-[50%] translate-y-[-50%] mx-auto shadow-xl rounded-md bg-white max-w-xl p-1">
+                <div class="flex justify-between p-2 border-b items-center">
+                    <h2 class="text-lg font-medium">
+                        Family and Couple Therapy
+                    </h2>
+                    <hr class="border-b"/>
+                    <button onclick="closeModal('service-5')" type="button"
+                        class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center">
+                        <i class="ri-close-line text-2xl"></i>
+                    </button>
+                </div>
+                <div class="p-2 text-sm font-light flex flex-col gap-y-4">
+                    <div>
+                        <h1 class="text-base font-medium">
+                            Family Therapy
+                        </h1>
+                        <p>
+                            Family therapy helps families navigate challenges and improve their relationships. Our therapists work with 
+                            families to address issues such as communication problems, parenting conflicts, and life transitions.
+                        </p>
+                    </div>
+                    <div>
+                        <h1 class="text-base font-medium">
+                            Couple Therapy
+                        </h1>
+                        <p>
+                            Our couple therapy focuses on enhancing communication and resolving conflicts between partners. 
+                            Whether you're facing specific issues or simply want to improve your relationship, we're here to help.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SERVICE 6 MODAL -->
+
+        <div id="service-6" class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 overflow-y-auto h-full w-full px-4 ">
+            <div class="relative top-[50%] translate-y-[-50%] mx-auto shadow-xl rounded-md bg-white max-w-xl p-1">
+                <div class="flex justify-between p-2 border-b items-center">
+                    <h2 class="text-lg font-medium">
+                        Learning Disability Management
+                    </h2>
+                    <hr class="border-b"/>
+                    <button onclick="closeModal('service-6')" type="button"
+                        class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center">
+                        <i class="ri-close-line text-2xl"></i>
+                    </button>
+                </div>
+                <div class="p-2 text-sm font-light flex flex-col gap-y-4">
+                    <div>
+                        <h1 class="text-base font-medium">
+                            Learning Disability
+                        </h1>
+                        <p>
+                            We provide specialized services to support individuals with learning disabilities. 
+                            Our goal is to help children and adults overcome challenges and achieve their full potential. 
+                            Based on the assessment results, we create tailored intervention plans and offer counseling and 
+                            support for individuals and families to help them navigate the emotional and social impacts of learning disabilities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SERVICE 7 MODAL -->
+
+        <div id="service-7" class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 overflow-y-auto h-full w-full px-4 ">
+            <div class="relative top-[50%] translate-y-[-50%] mx-auto shadow-xl rounded-md bg-white max-w-xl p-1">
+                <div class="flex justify-between p-2 border-b items-center">
+                    <h2 class="text-lg font-medium">
+                        Comprehensive Career Counselling by Expert
+                    </h2>
+                    <hr class="border-b"/>
+                    <button onclick="closeModal('service-7')" type="button"
+                        class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center">
+                        <i class="ri-close-line text-2xl"></i>
+                    </button>
+                </div>
+                <div class="p-2 text-sm font-light flex flex-col gap-y-4">
+                    <div>
+                        <h1 class="text-base font-medium">
+                            Psychometric Assessment
+                        </h1>
+                        <p>
+                            5 dimensional career assessment test includes a detailed analysis of personality, interest, career motivators, 
+                            learning style and abilities.
+                            It is a highly accurate and reliable assessment and based on well-proven psychometric theories.
+                        </p>
+                    </div>
+                    <div>
+                        <h1 class="text-base font-medium">
+                            Comprehensive Career Report
+                        </h1>
+                        <p>
+                            22+ pages comprehensive career report provides a clear recommendation of the most suitable career option.
+                            Career report is not only limited to find out the most suitable career option but also offer detailed 
+                            education road map with the execution plan.
+                        </p>
+                    </div>
+                    <div>
+                        <h1 class="text-base font-medium">
+                            Career assessments
+                        </h1>
+                        <ul class="list-none">
+                            <li>
+                                ▪️ Career Analysis for 8th, 9th & 10th Class It will help you to find out most suitable career path and subjects
+                            </li>
+                            <li>
+                                ▪️ Career Analysis for 11th & 12th Class It will help you to find out most suitable career path and career road map with detailed execution plan
+                            </li>
+                            <li>
+                                ▪️ Career Analysis for Graduates It will help you to find out Most Suitable Career path and Career Road map with detailed execution plan
+                            </li>
+                            <li>
+                                ▪️ Career Analysis for Professionals Early and Mid career counselling for professionals with detailed execution plan
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SERVICE 8 MODAL -->
+
+        <div id="service-8" class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 overflow-y-auto h-full w-full px-4">
+            <div class="relative top-[50%] translate-y-[-50%] mx-auto shadow-xl rounded-md bg-white max-w-xl p-1">
+                <div class="flex justify-between p-2 border-b items-center">
+                    <h2 class="text-lg font-medium">
+                        Corporate training
+                    </h2>
+                    <hr class="border-b"/>
+                    <button onclick="closeModal('service-8')" type="button"
+                        class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center">
+                        <i class="ri-close-line text-2xl"></i>
+                    </button>
+                </div>
+                <div class="p-2 text-sm font-light flex flex-col gap-y-2">
+                    <div>
+                        <h1 class="text-base font-medium">
+                            Stress Management
+                        </h1>
+                        <p>
+                            Equip your team with techniques to manage stress and maintain mental health.
+                        </p>
+                    </div>
+                    <div>
+                        <h1 class="text-base font-medium">
+                            Emotional Intelligence
+                        </h1>
+                        <p>
+                            Develop emotional intelligence skills to improve communication and teamwork.
+                        </p>
+                    </div>
+                    <div>
+                        <h1 class="text-base font-medium">
+                            Leadership Development
+                        </h1>
+                        <p>
+                            Foster strong leadership grounded in psychological principles.
+                        </p>
+                    </div>
+                    <div>
+                        <h1 class="text-base font-medium">
+                            Conflict Resolution
+                        </h1>
+                        <p>
+                            Teach effective conflict resolution strategies to create a more collaborative workplace.
+                        </p>
+                    </div>
+                    <div>
+                        <h1 class="text-base font-medium">
+                            Mindfulness Training
+                        </h1>
+                        <p>
+                            Introduce mindfulness practices to enhance focus and productivity.
+                        </p>
+                    </div>
+                    <div>
+                        <h1 class="text-base font-medium">
+                            Work-Life Balance
+                        </h1>
+                        <p>
+                            Provide strategies to help employees balance their professional and personal lives.
+                        </p>
+                    </div>
+                    <div>
+                        <h1 class="text-base font-medium">
+                            Custom Training Solutions
+                        </h1>
+                        <p>
+                            Tailored programs to meet your specific business needs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SERVICE 9 MODAL -->
+
+        <div id="service-9" class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 overflow-y-auto h-full w-full px-4 ">
+            <div class="relative top-[50%] translate-y-[-50%] mx-auto shadow-xl rounded-md bg-white max-w-xl p-1">
+                <div class="flex justify-between p-2 border-b items-center">
+                    <h2 class="text-lg font-medium">
+                        Kickstart Your Clinical Psychology Career
+                    </h2>
+                    <hr class="border-b"/>
+                    <button onclick="closeModal('service-9')" type="button"
+                        class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center">
+                        <i class="ri-close-line text-2xl"></i>
+                    </button>
+                </div>
+                <div class="p-2 text-sm font-light flex flex-col gap-y-4">
+                    <div>
+                        <p>
+                            Our Clinical Psychology Internship Program provides hands-on experience, helping you bridge the gap between theory and practice. Ideal for psychology students or recent graduates, this internship offers invaluable exposure to
+                        </p>
+                    </div>
+                    <div>
+                        <h1 class="text-base font-medium">
+                            Psychological Assessments
+                        </h1>
+                        <p>
+                            Learn to conduct and interpret diagnostic tests.
+                            Therapeutic Techniques: Get trained in evidence-based methods such as Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and similar therapeutic approaches.
+                        </p>
+                    </div>
+                    <div>
+                        <h1 class="text-base font-medium">
+                            Key Benefits
+                        </h1>
+                        <ul class="list-none">
+                            <li>
+                                ▪️ Expert Guidance: Work closely with licensed clinical and consultant psychologists.
+                            </li>
+                            <li>
+                                ▪️ Career Mentorship: Receive personalized advice on education and career paths.
+                            </li>
+                            <li>
+                                ▪️ Eligibility: Open to current students or recent graduates in psychology.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SERVICE MODAL END -->
+
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
